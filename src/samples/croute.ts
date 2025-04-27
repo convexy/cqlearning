@@ -1,4 +1,4 @@
-import { State, Action, CQLearning, CGame } from "./cqleaning";
+import { State, Action, CQLearning, CGame } from "../cqleaning";
 
 class CRoute implements CGame {
   actions: Action[] = ["u", "l", "r", "d"];

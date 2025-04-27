@@ -7,7 +7,7 @@
 // 40 41 42
 // 43  G 44
 // 45 46 47
-import { State, Action, CQLearning, CGame } from "./cqleaning";
+import { State, Action, CQLearning, CGame } from "../cqleaning";
 
 class CVirtualRubiksCube implements CGame {
   actions: Action[] = ["Wr", "Wl", "Rr", "Rl", "Yr", "Yl", "Or", "Ol", "Br", "Bl", "Gr", "Gl"];
